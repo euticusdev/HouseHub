@@ -1,0 +1,132 @@
+ s<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HouseHub</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="logo">
+            <span class="logo-icon">🏠</span>
+            <span class="logo-text">HouseHub</span>
+
+        </div>
+        <nav class="nav-bar">
+            
+        <a href="index.html" class="active">Home</a>
+        <a href="#houses" class="header-button"> Explore Houses</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+
+        </header>
+        </nav>
+
+        <section class="hero">
+            <div class="hero">
+                <h2>Find Your Perfect Home</h2>
+                <p class="eyebrow">Discover houses that match your budget, preferred location and lifestyle.</p>
+                
+                <form class="search-form" id="search-form">
+
+                    <div class="search-bar">
+                        <label for="location">Location:</label>
+            
+                        <select id="location">
+                            <option value="all">Any location</option>
+                            <option value="Catholic">Catholic</option>    
+                            <option value="Katiba">Katiba</option>
+                            <option value="Manyota">Manyota</option>
+                            <option value="Mukuyu">Mukuyu</option>
+                            <option value="Mumbi">Mumbi</option>
+                            <option value="Murang'a Town">Murang'a Town</option>
+                            <option value="Mwangaza">Mwangaza</option>
+                            <option value="Tighties">Tighties</option>
+                            <option value="V.M">V.M</option>
+                            
+                        </select>
+                        </div>
+                
+                <div class="search-bar">
+                <label for="House type">House type:</label>
+                <select id="House type">
+                    <option value="all">Any type</option>
+                    <option value="single rooms">single rooms</option>
+                    <option value="bed sitter">bed sitter</option>
+                    <option value="1 bedroom">1 bedroom</option>
+                    <option value="2 bedroom">2 bedroom</option>
+                </select>
+                </div>
+                
+                <div class="search-bar">
+                <label for="min-price">Price:</label>
+                <input type="number" id="price" name="price" min="3000" step="100">
+                </div>
+
+
+                <button type="submit" class="search-btn">Search Houses</button>
+                </form>
+        
+            <p class="search-note">We help you find your dream home with ease and convenience.</p>
+            </div>
+        </section>
+        
+
+        
+        <section class="Explore-houses" id="houses">
+
+            <div class="houses_section">
+                <div>
+                    <p class ="eyebrow">EXPLORE AVAILABLE HOUSES</p>
+
+                    <h2>Find your perfect House</h2>
+                    
+                    <p>Explore different house types and compare monthly rental prices to find the best fit for your budget and lifestyle.</p>
+                </div>
+
+
+            </div>
+        </section>
+        
+        <div class="houses-container" id="houses-container">
+            
+            <div class="house-card">
+                <div class="house-image">
+                <img src="/frontend/images/WhatsApp Image 2026-10-22 at 6.59.48 PM.jpeg" alt="Single room for rent">
+                </div>
+
+                <div class="house-details">
+                <h3>Single Room</h3>
+                <p class="house-location">Location: Catholic</p>
+                <p class="house-description">A simple and affordable room suitable for students and individuals.</p>
+                <p class="house-price">Price: Ksh 3,500 / month</p>
+                <a href="#contact" class="house-button">Contact Owner</a>
+                </div>
+
+                </div >
+
+                <!--House 2-->
+                <div class="house-card">
+                    <div class="house-image">
+                    <img src="images/house2.jpg" alt="Bed sitter for rent">
+                    </div>
+    
+                    <div class="house-details">
+                    <h3>Bed Sitter</h3>
+                    <p class="house-location">Location: Katiba</p>
+                    <p class="house-description">A cozy bed sitter with basic amenities, ideal for singles or couples.</p>
+                    <p class="house-price">Price: Ksh 5,000 / month</p>
+                    <a href="#contact" class="house-button">Contact Owner</a>
+                    </div>
+    
+        
+    
+
+
+
+
+</body>
+</html>
